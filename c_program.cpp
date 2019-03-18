@@ -17,4 +17,12 @@ class Add{
 		return r;
 		}
 
+};
+void main(){
+Add obj1;
+obj1.getData(4,5);
+int result;
+result = obj1.addNumbers();
+cout<<"result is :"<<result;
+
 }
